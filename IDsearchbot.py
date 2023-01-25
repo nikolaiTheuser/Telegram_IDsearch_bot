@@ -1,6 +1,6 @@
 import telebot
 
-bot = telebot.TeleBot("5864046084:AAEU72GwWKxHptUYWZbLSZZUCiNMBjfqkfA")
+bot = telebot.TeleBot("Token_Name")
 
 @bot.message_handler(commands=['find'])
 def find_user(message):
